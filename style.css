@@ -64,3 +64,12 @@ li {
   border-radius: 10px;
   padding: 10px;
 }
+
+#noUsersFound {
+  display: initial;
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
