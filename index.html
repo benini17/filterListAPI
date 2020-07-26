@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alex Benini Teixeira">
+    <title>Desafio 1 - Pesquisa de Usuários API</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./desafio1.js"></script>
+  </head>
+  <body>
+    <h1>Search users</h1>
+    <form>
+      <label
+        >Search:
+        <input id="inputName" type="text" placeholder="Inform a name here" />
+        <input type="button" id="searchBtn" value="Search" />
+      </label>
+    </form>
+    <div class="information" id="zeroUsers"></div>
+    <div class="information" id="someUsers"></div>
+    <div id="names"></div>
+    <div id="statistics">
+      <h2>Statistics</h2>
+      <p>Males:</p>
+      <p class="answer"></p>
+      <p>Females:</p>
+      <p class="answer"></p>
+      <p>Age sum:</p>
+      <p class="answer"></p>
+      <p>Age avarage:</p>
+      <p class="answer"></p>
+    </div>
+  </body>
+</html>
